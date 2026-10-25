@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+drawable preview
+drawable static_wallpaper
+raw wallpaper
+string app_name
+string wallpaper_description
+xml wallpaper

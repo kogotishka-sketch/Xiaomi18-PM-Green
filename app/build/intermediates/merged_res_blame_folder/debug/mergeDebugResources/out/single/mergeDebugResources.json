@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.floyd.videowallpaper.app-debug-4:/drawable_preview.jpg.flat",
+        "source": "com.floyd.videowallpaper.app-main-6:/drawable/preview.jpg"
+    },
+    {
+        "merged": "com.floyd.videowallpaper.app-debug-4:/raw_wallpaper.mp4.flat",
+        "source": "com.floyd.videowallpaper.app-main-6:/raw/wallpaper.mp4"
+    },
+    {
+        "merged": "com.floyd.videowallpaper.app-debug-4:/xml_wallpaper.xml.flat",
+        "source": "com.floyd.videowallpaper.app-main-6:/xml/wallpaper.xml"
+    },
+    {
+        "merged": "com.floyd.videowallpaper.app-debug-4:/drawable_static_wallpaper.jpg.flat",
+        "source": "com.floyd.videowallpaper.app-main-6:/drawable/static_wallpaper.jpg"
+    }
+]

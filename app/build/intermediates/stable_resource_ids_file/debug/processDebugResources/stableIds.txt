@@ -1,0 +1,6 @@
+com.floyd.videowallpaper:drawable/preview = 0x7f010000
+com.floyd.videowallpaper:raw/wallpaper = 0x7f020000
+com.floyd.videowallpaper:string/wallpaper_description = 0x7f030001
+com.floyd.videowallpaper:xml/wallpaper = 0x7f040000
+com.floyd.videowallpaper:drawable/static_wallpaper = 0x7f010001
+com.floyd.videowallpaper:string/app_name = 0x7f030000

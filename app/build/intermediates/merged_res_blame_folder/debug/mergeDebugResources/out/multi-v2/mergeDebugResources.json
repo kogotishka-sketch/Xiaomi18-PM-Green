@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.floyd.videowallpaper.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\user\\Desktop\\SuperWallpaperVideo\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,81",
+                        "endColumns": "64,131",
+                        "endOffsets": "76,208"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,120",
+                        "endColumns": "64,131",
+                        "endOffsets": "115,247"
+                    }
+                }
+            ]
+        }
+    ]
+}

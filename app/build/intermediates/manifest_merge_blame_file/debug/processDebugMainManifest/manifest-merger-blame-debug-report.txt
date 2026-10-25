@@ -1,0 +1,56 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.floyd.videowallpaper"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-feature
+11-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:2:5-92
+12        android:name="android.software.live_wallpaper"
+12-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:2:19-65
+13        android:required="true" />
+13-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:2:66-89
+14
+15    <application
+15-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:3:5-20:19
+16        android:allowBackup="false"
+16-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:4:9-36
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@drawable/preview"
+19-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:6:9-41
+20        android:label="Floyd Video Super Wallpaper"
+20-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:5:9-52
+21        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+21-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:7:9-72
+22        <service
+22-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:8:9-19:19
+23            android:name="com.floyd.videowallpaper.VideoWallpaperService"
+23-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:9:13-50
+24            android:exported="true"
+24-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:12:13-36
+25            android:label="Floyd Video Super Wallpaper"
+25-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:10:13-56
+26            android:permission="android.permission.BIND_WALLPAPER" >
+26-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:11:13-67
+27            <intent-filter>
+27-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:13:13-15:29
+28                <action android:name="android.service.wallpaper.WallpaperService" />
+28-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:14:17-85
+28-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:14:25-82
+29            </intent-filter>
+30
+31            <meta-data
+31-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:16:13-18:53
+32                android:name="android.service.wallpaper"
+32-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:17:17-57
+33                android:resource="@xml/wallpaper" />
+33-->C:\Users\user\Desktop\SuperWallpaperVideo\app\src\main\AndroidManifest.xml:18:17-50
+34        </service>
+35    </application>
+36
+37</manifest>
